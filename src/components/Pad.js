@@ -8,7 +8,7 @@ function Pad({handleClick, power, backgroundStyle, element, id }) {
         type='button'
         className='drum-pad' 
         onClick={handleClick} 
-        id={bank1[element]} 
+        id={bank1[element].name} 
         disabled={!power} 
         style={{background: `${backgroundStyle}`}}>
         {element}
